@@ -1,0 +1,46 @@
+$light-color : #000168;
+$dark-color: rgb(0, 0, 10);
+$primary-font: 'Noto Sans',
+sans-serif;
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    background-image: url("../assets/download.jpg");
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    padding: 25px;
+    justify-content: space-between;
+    font-family: $primary-font;
+
+
+    .form-wrapper {
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    img {
+        width: 100px;
+        margin-top: 20px;
+    }
+
+    .title-wrap {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:765px) {
+    .wrapper {
+        width: 100%;
+        height: 90vh;
+        padding: 15px;
+    }
+}

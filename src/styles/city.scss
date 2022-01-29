@@ -1,0 +1,76 @@
+.container {
+    background-image: url("../assets/wit.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 25px;
+    border-radius: 8px;
+    background-color: rgb(197, 197, 22);
+
+    .degrees {
+        font-size: 50px;
+    }
+
+    .time {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+
+    .cityName {
+        font-size: 18px;
+    }
+
+    .date {
+        font-size: 18px;
+    }
+
+    img {
+        margin: 30px 0;
+        width: 130px;
+    }
+
+    .vector {
+        border-style: solid;
+        width: 80%;
+        border-width: 1px;
+        margin: 15px 0;
+    }
+
+    .infoContainer {
+        margin-top: 25px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 40px;
+        margin: 0;
+        padding: 0;
+    }
+
+    span {
+
+        margin: 0;
+        padding: 0;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:765px) {
+    .container {
+        width: 100%;
+        height: 90vh;
+        padding: 15px;
+    }
+}

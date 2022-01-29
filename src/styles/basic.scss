@@ -1,0 +1,55 @@
+$light-color : #000168;
+$dark-color: rgb(0, 0, 10);
+
+
+
+.App {
+
+    margin: 200px auto;
+    width: 380px;
+    box-shadow: 0px 8px 21px 4px rgba(0, 0, 0, 0.37);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+input {
+    height: 30px;
+    border-style: none;
+    border-width: 1.5px;
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+    outline: none;
+    font-size: 16px;
+    padding: 0 10px;
+
+}
+
+button {
+    height: 30px;
+    padding: 0 10px;
+    color: grey;
+    background-color: white;
+    border-style: none;
+    font-size: 16px;
+    border-radius: 0 5px 5px 0px;
+
+    border-left: 1px solid black;
+    border-color: #00B381;
+}
+
+button:hover {
+    cursor: pointer;
+    color: black;
+}
+
+@media screen and (max-width:765px) {
+    .App {
+        width: auto;
+        margin: 12px;
+        height: 90vh;
+    }
+}
